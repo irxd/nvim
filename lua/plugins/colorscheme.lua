@@ -9,11 +9,11 @@ return {
                 transparent = false,   -- Boolean: Sets the background to transparent (Default: false)
                 italics = {
                     comments = true,   -- Boolean: Italicizes comments (Default: true)
-                    keywords = true,   -- Boolean: Italicizes keywords (Default: true)
-                    functions = true,  -- Boolean: Italicizes functions (Default: true)
-                    strings = true,    -- Boolean: Italicizes strings (Default: true)
-                    variables = true,  -- Boolean: Italicizes variables (Default: true)
-                    bufferline = false -- Boolean: Italicizes bufferline (Default: false)
+                    -- keywords = true,   -- Boolean: Italicizes keywords (Default: true)
+                    -- functions = true,  -- Boolean: Italicizes functions (Default: true)
+                    -- strings = true,    -- Boolean: Italicizes strings (Default: true)
+                    -- variables = true,  -- Boolean: Italicizes variables (Default: true)
+                    -- bufferline = false -- Boolean: Italicizes bufferline (Default: false)
                 },
                 overrides = {},        -- A dictionary of group names, can be a function returning a dictionary or a table.
             })
