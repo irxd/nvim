@@ -22,4 +22,19 @@ return {
             vim.cmd.colorscheme("vercel")
         end,
     }
+--     {
+--         "nyoom-engineering/oxocarbon.nvim",
+--         lazy = false,
+--         priority = 1000,
+--         config = function()
+--             vim.opt.background = "dark"
+--             vim.cmd.colorscheme "oxocarbon"
+            
+--             -- Override explorer folder color
+--             vim.api.nvim_set_hl(0, "NvimTreeFolderName", { fg = "#f073ab" })
+--             vim.api.nvim_set_hl(0, "NvimTreeFolderIcon", { fg = "#f073ab" })
+--             vim.api.nvim_set_hl(0, "NeoTreeDirectoryName", { fg = "#f073ab" })
+--             vim.api.nvim_set_hl(0, "NeoTreeDirectoryIcon", { fg = "#f073ab" })
+--         end,
+--     }
 }
